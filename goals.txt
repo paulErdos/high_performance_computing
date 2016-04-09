@@ -1,0 +1,36 @@
+===============================================================================
+Part 1
+
+Goal 1:
+1. Figure out how to submit jobs to Hyades at all.
+2. Get Hyades to take one script that takes input.
+3. Get Hyades to take one script that produces output and store that output 
+   somewhere.
+4. Write a batch script to dispatch a bunch of jobs that all take input and 
+   produce output and store that output somewhere in files. 
+
+Goal 2.
+1. Get Hyades to produce a histogram from the halo catalog and store it 
+   somewhere. 
+===============================================================================
+
+===============================================================================
+Part 2
+
+Goal:
+* Make a webpage that displays a histogram from a directory, with 
+  left-and-right buttons that allow the user to toggle between. Minimum 
+  functionality at this point. 
+===============================================================================
+
+===============================================================================
+Part 3
+
+* Write a script so that in scrolling back and forth, 
+  1. We check to see if the histogram we're looking for exists. If it does, 
+     we show it. If it doesn't, we ask Hyades to produce it, and when we get 
+     it, we show it. 
+===============================================================================
+
+
+

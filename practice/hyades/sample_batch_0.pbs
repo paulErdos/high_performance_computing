@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#PBS -N jobarray
+#PBS -q normal
+#PBS -l ncpus=1
+#PBS -l walltime=00:00:10
+#PBS -t 1-10
+#PBS -M vsteffen@UCSC.edu
+#PBS -m abe
+
+cd $PBS_O_WORKDIR
+./sample_program_0.py $PBS_ARRAYID
